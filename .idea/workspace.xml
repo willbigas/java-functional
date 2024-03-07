@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7752a1fd-86cf-420b-8042-54b64d42786d" name="Changes" comment="Adicionado BiFunction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/functionalinterface/_Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/functionalinterface/_Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/functionalinterface/_Supplier.java" afterDir="false" />
+    <list default="true" id="7752a1fd-86cf-420b-8042-54b64d42786d" name="Changes" comment="Adicionado Consumer, Predicate e Supplier.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/combinatorpattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/combinatorpattern/CustomerRegistrationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/combinatorpattern/CustomerValidatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/combinatorpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/optionals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/willbigas/streams/_Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,7 +46,9 @@
     "Application._Consumer.executor": "Run",
     "Application._Function.executor": "Run",
     "Application._Predicate.executor": "Run",
+    "Application._Stream.executor": "Run",
     "Application._Supplier.executor": "Run",
+    "Application.br.com.willbigas.combinatorpattern.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,39 +68,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._Supplier">
+  <component name="RunManager" selected="Application.br.com.willbigas.combinatorpattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.imperative.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.optionals.Main" />
       <module name="java-functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.willbigas.imperative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.functionalinterface._Consumer" />
-      <module name="java-functional" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.willbigas.functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.functionalinterface._Function" />
-      <module name="java-functional" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.willbigas.functionalinterface.*" />
+          <option name="PATTERN" value="br.com.willbigas.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.streams._Stream" />
+      <module name="java-functional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.willbigas.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.willbigas.functionalinterface._Supplier" />
       <module name="java-functional" />
@@ -128,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.willbigas.combinatorpattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.willbigas.combinatorpattern.Main" />
+      <module name="java-functional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.willbigas.combinatorpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.com.willbigas.combinatorpattern.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._Stream" />
         <item itemvalue="Application._Supplier" />
         <item itemvalue="Application._Predicate" />
-        <item itemvalue="Application._Consumer" />
-        <item itemvalue="Application._Function" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +161,7 @@
       <updated>1709818513467</updated>
       <workItem from="1709818514677" duration="961000" />
       <workItem from="1709819540203" duration="283000" />
-      <workItem from="1709819845961" duration="7436000" />
+      <workItem from="1709819845961" duration="11417000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -181,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709823583975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionado Consumer, Predicate e Supplier.">
+      <option name="closed" value="true" />
+      <created>1709828292855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709828292855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +205,27 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Adicionado combined functions" />
     <MESSAGE value="Adicionado BiFunction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado BiFunction" />
+    <MESSAGE value="Adicionado Consumer, Predicate e Supplier." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado Consumer, Predicate e Supplier." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/willbigas/streams/_Stream.java</url>
+          <line>11</line>
+          <properties class="br.com.willbigas.streams._Stream" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/willbigas/combinatorpattern/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
