@@ -1,0 +1,19 @@
+
+
+java:S1192"GDefine a constant instead of duplicating this literal "Hello " 5 times.(±ÖĞÔşÿÿÿÿ8ºÙéËá1J$738c3d9c-ff5e-4bad-84ae-b8f6e7b69f9d
+©
+java:S1192"fDefine a constant instead of duplicating this literal " thanks for registering phone number " 5 times.(ğÄÿ8ºÙéËá1J$a5fba518-4385-43bf-884f-520c9a27d02e
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(üå„Æûÿÿÿÿ8¼ÙéËá1J$d6684fc4-f5b6-4db4-b5ca-ab03d94d66ec
+p
+java:S54117"(Use a primitive boolean expression here.(ïå‹Êùÿÿÿÿ8¸òòËá1J$91be8e81-87b1-4ebe-b6fa-8f8a8cce9513
+p
+java:S5411C"(Use a primitive boolean expression here.(ïå‹Êùÿÿÿÿ8İ§óËá1J$d85f607d-c2eb-4594-b387-418c3865d190
+m	java:S106	"+Replace this use of System.out by a logger.(¢øŸº8ÇÙéËá1J$764cd099-7d26-45ac-b485-4fe8e462aacb
+m	java:S106"+Replace this use of System.out by a logger.(²·¢Ç8ÈÙéËá1J$ddf68add-b9ff-4fd8-a58e-235a793a07e3
+r	java:S106"+Replace this use of System.out by a logger.(Š¸…‹øÿÿÿÿ8ÈÙéËá1J$9ab01cd6-9aa5-48de-82e2-51524759b43d
+m	java:S106"+Replace this use of System.out by a logger.(ä¥²™8ÉÙéËá1J$4aa88eeb-506f-4493-a00e-70728fac19fd
+r	java:S106"+Replace this use of System.out by a logger.(±ÖĞÔşÿÿÿÿ8ÊÙéËá1J$ecc75d2e-1d6e-4854-a447-f662cf37adb5
+r	java:S106%"+Replace this use of System.out by a logger.(±ÖĞÔşÿÿÿÿ8ÌÙéËá1J$bf501999-b77c-4512-a4c3-e662f14a1156
+m	java:S106/"+Replace this use of System.out by a logger.(ÏŸ™›8ŠòñËá1J$54b5977c-711f-43eb-8b3b-9103269fa986
+r	java:S1065"+Replace this use of System.out by a logger.(±ÖĞÔşÿÿÿÿ8î§óËá1J$c0681b9c-2061-4d0a-b7b6-bab847adf247
+r	java:S106A"+Replace this use of System.out by a logger.(±ÖĞÔşÿÿÿÿ8ŒŒ÷Ëá1J$42a407c5-6570-4caf-9a3c-47aaf75f0ca5
